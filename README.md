@@ -1,12 +1,70 @@
-# React + Vite
+# Movie Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive movie web app built using **React**, **Vite**, and **Tailwind CSS**. This app displays a list of selected movies, allows filtering by genre, and lets users add movies to a watchlist.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Movie listing with title, poster, and release date
+- Genre filter dropdown
+- Watchlist add/remove functionality
+- Fully responsive design (desktop, tablet, mobile)
+- Reusable React components
+- Styled using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript 
+
+movie-website/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── screenshots/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── vite.config.js
+
+## Screenshots
+
+### Homepage - Desktop View
+![Homepage Desktop](./src/screenshots/Homepage(Desktop).png)
+
+### Homepage - Mobile View
+![Homepage Mobile](./src/screenshots/Homepage%20Mobile%20View.png)
+
+### Homepage - Tablet Search View
+![Tablet Search View](./src/screenshots/Homepage(TabletSearchView).png)
+
+### Genre Filter Dropdown
+![Genre Filter](./src/screenshots/Genre%20Filter.png)
+
+### Watchlist Page
+![Watchlist](./src/screenshots/Watchlist.png)
+
+### Watchlist Search
+![Watchlist Search](./src/screenshots/Watchlist%20search.png)
+
+
+## Live Demo
+
+[https://movie-website-filmie.vercel.app](https://movie-website-filmie.vercel.app)
+
+## Feedback
+
+Thank you for checking out this project.  
+Feel free to open issues or give suggestions for improvement.
+
+Made with using React, Tailwind CSS, Vite, and TMDB API.
+
+ Autho[Manjushree](https://github.com/Manjushree8)
