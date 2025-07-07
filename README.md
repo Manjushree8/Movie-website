@@ -67,4 +67,4 @@ Feel free to open issues or give suggestions for improvement.
 
 Made with using React, Tailwind CSS, Vite, and TMDB API.
 
- Autho[Manjushree](https://github.com/Manjushree8)
+ Author : [Manjushree](https://github.com/Manjushree8)
